@@ -77,11 +77,14 @@ open class PostActivity : AppCompatActivity() {
                 Log.i(TAG, "Post $post")
             }
         }
+        fabCreate.setOnClickListener {
+            val intent = Intent(this, CreateActivity::class.java)
+            startActivity(intent)
+        }
 
-        // query to Firestore to retrieve data
 
     }
-
+    // query to Firestore to retrieve data
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_posts, menu)
         return super.onCreateOptionsMenu(menu)
