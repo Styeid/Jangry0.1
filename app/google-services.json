@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904230194992",
+    "project_id": "jangry-9b2bc",
+    "storage_bucket": "jangry-9b2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904230194992:android:61de02495cd70e90ac82f5",
+        "android_client_info": {
+          "package_name": "com.jufaja.jangry01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904230194992-g6b46jijh9kk37cgmmd87vtbh9mdsiu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJZNrvYFt3mdExEaYQsRSri-rg5cccKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904230194992-g6b46jijh9kk37cgmmd87vtbh9mdsiu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

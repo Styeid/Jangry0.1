@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/drawable/ic__person_.xml" value="0.2703125" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/layout/activity_go_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/layout/activity_post.xml" value="0.24010416666666667" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/layout/activity_profil.xml" value="0.25416666666666665" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/layout/item_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/menu/menu_posts.xml" value="0.25416666666666665" />
+        <entry key="..\:/01RBJFJ001/01Bram/07.1JangTime/Jangry01/app/src/main/res/menu/menu_profil.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
