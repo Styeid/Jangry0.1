@@ -39,6 +39,7 @@ open class PostActivity : AppCompatActivity() {
         // bind the adapter and layoutManager to the recyclerview
         rvPosts.adapter = adapter
         rvPosts.layoutManager = LinearLayoutManager(this)
+        //<<
         firestoreDb = FirebaseFirestore.getInstance()
 
         firestoreDb.collection("users")
