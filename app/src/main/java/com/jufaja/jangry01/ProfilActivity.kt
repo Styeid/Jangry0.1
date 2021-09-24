@@ -20,7 +20,10 @@ class ProfilActivity : PostActivity() {
         if (item.itemId == R.id.menu_logout) {
             Log.i(TAG, "Gebruiker wil uitloggen")
             FirebaseAuth.getInstance().signOut()
-            startActivity(Intent(this, LoginActivity::class.java))
+            val intent = (Intent(this, LoginActivity::class.java))
+            startActivity(intent)
+
+
         }
         return super.onOptionsItemSelected(item)
     }

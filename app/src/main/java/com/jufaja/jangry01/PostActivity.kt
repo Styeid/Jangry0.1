@@ -30,6 +30,7 @@ open class PostActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_post)
+        supportActionBar?.title = "Habibies"
 
         // create layoutfile which reprsents one post (zie item_post.xml)
         // create data source -
@@ -96,6 +97,7 @@ open class PostActivity : AppCompatActivity() {
             val intent = Intent(this, ProfilActivity::class.java)
             intent.putExtra(EXTRA_USERNAME, signInUser?.username)
             startActivity(intent)
+
         }
         return super.onOptionsItemSelected(item)
 

@@ -24,11 +24,12 @@ class LoginActivity : AppCompatActivity() {
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
             if (email.isBlank() || password.isBlank()) {
+                btnLogin.isEnabled = true
                 Toast.makeText(this, "Email/Password NIET ingevuld", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
+
             }
             // authantication check firebase
-
             auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { Task ->
                 btnLogin.isEnabled = true
                 if (Task.isSuccessful) {
