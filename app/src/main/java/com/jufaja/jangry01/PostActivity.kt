@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.activity_post.*
 
 
 private const val TAG = "PostActivity"
-private const val EXTRA_USERNAME = "EXTRA_USERNAME"
+const val EXTRA_USERNAME = "EXTRA_USERNAME"
 open class PostActivity : AppCompatActivity() {
 
     private var signInUser: User? = null
