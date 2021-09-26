@@ -32,7 +32,7 @@ open class PostActivity : AppCompatActivity() {
         setContentView(R.layout.activity_post)
         supportActionBar?.title = "Habibies"
 
-        // create layoutfile which reprsents one post (zie item_post.xml)
+        // create layoutfile which represents one post (zie item_post.xml)
         // create data source -
         posts = mutableListOf()
         // create adapter

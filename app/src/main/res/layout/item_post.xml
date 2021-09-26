@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_margin="7dp"
+    android:visibility="visible"
+    app:cardBackgroundColor="#14FE475C">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,14 +18,23 @@
             android:id="@+id/tvUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/bangers"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="34sp"
+            android:textStyle="bold"
             tools:text="Shieda" />
 
         <TextView
             android:id="@+id/tvRelativeTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="12sp"
+            android:layout_marginRight="10dp"
+            android:textAlignment="textEnd"
+            android:textSize="10sp"
             tools:text="47 minutes ago" />
 
         <ImageView
@@ -39,7 +49,9 @@
             android:id="@+id/tvDescreption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="8dp"
+            android:singleLine="true"
             tools:text="Healty Snacking" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
